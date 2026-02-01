@@ -1,9 +1,14 @@
+*This project has been created as part of the 42 curriculum by esaleh.*
+
 # so_long
 
+## Description
 A small 2D tile-based game for the 42 so_long project. The player collects all
 collectibles and exits the map using the shortest path (by design).
 
-## Build
+## Instructions
+
+### Build
 
 ### Linux (42 evaluation machines)
 - Requires MiniLibX for Linux in `./mlx_linux`.
@@ -23,7 +28,7 @@ MLX_LIB := $(MLX_DIR)/libmlx.a
 MLX_FLAGS := -L$(MLX_DIR) -lmlx -framework OpenGL -framework AppKit
 ```
 
-## Run
+### Run
 
 ```
 ./so_long maps/level1.ber
@@ -50,3 +55,9 @@ MLX_FLAGS := -L$(MLX_DIR) -lmlx -framework OpenGL -framework AppKit
 ## Notes
 - Movement count is printed to the shell on every valid move.
 - Bonus features are not implemented yet.
+
+## Resources
+- MiniLibX documentation and examples (42 intra resources and MLX repos).
+- XPM format reference and general 2D tile-based game tutorials.
+- 42 so_long subject PDF for rules, constraints, and required behavior.
+- AI usage: none in the implementation; used only for README wording and structure.
